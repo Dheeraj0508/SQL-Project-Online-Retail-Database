@@ -1,0 +1,28 @@
+Online Retail Sales Database Design
+Internship Project Report
+Date: 2025-10-27
+
+Introduction
+The objective of this internship project is to design a normalized relational database for an online retail platform, implement the schema using SQL, populate it with sample data, and write analytical queries to derive business insights. The schema models customers, products, categories, orders, order items, and payments — normalized to 3NF to avoid redundancy and ensure data integrity.
+
+Abstract
+This project demonstrates how to design a robust database backend for an e-commerce application. Key features include constrained relationships, aggregation and window function queries for analytics, and performance-conscious indexes. Deliverables include the SQL DDL, sample data, and analytical query scripts to support reporting needs such as top-selling products, monthly revenue, and customer lifetime value analyses.
+
+Tools Used
+- PostgreSQL / MySQL (DDL compatible)
+- Any SQL client (pgAdmin, DBeaver, DB Browser)
+- Optional: Power BI or Python for downstream visualization (not included here)
+
+Steps Involved in Building the Project
+1. Requirements: Identify core entities (Customers, Products, Categories, Orders, OrderItems, Payments).
+2. Schema design: Normalize schema to 3NF and define primary/foreign keys and constraints.
+3. Implement DDL: Write CREATE TABLE statements and add indexes for common query paths.
+4. Sample data: Insert sample customers, categories, products, orders, items, and payments to enable testing.
+5. Analytical queries: Write SQL queries to compute top products, monthly revenues, AOV, repeat customers, sales by category, and running totals using window functions.
+6. Validation: Run queries to validate correctness and tune indexes if necessary.
+7. Documentation: Prepare a concise 1–2 page report summarizing work and results.
+
+Conclusion
+The designed database supports typical e-commerce reporting and operational needs. With the provided DDL, sample data, and analytical queries, this project can be extended further for features such as promotions, inventory tracking, returns, and integration with visualization tools. The deliverables attached include schema SQL, sample data scripts, analytical queries, and this concise report suitable for submission.
+
+-- End of report --
